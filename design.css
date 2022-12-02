@@ -1,0 +1,95 @@
+body{
+    background-image: url(https://www.foodcoholic.com/wp-content/uploads/2021/04/foodcoholic_banner4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.text{
+    text-align: center;
+    font-size: 25px;
+    margin: 90px;
+}
+
+a{
+    text-decoration: none
+}
+.image{
+    padding: 100px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 10px;
+    color: rgb(245, 245, 245);
+    width: 214.542px;
+    background: rgba(32, 1, 1, 0.096);
+    min-height: 400px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-group {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.title{
+    text-align: center;
+    color: rgb(255, 253, 253);
+    font-size: 50px;
+    margin: 40px;
+}
+.sub-title{
+    text-align: center;
+    color:rgb(245, 245, 245)
+}
+.about{
+    font-size: 17px;
+    padding: 4px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    padding-right: 10px;
+}
+a:link{
+    color: rgb(255, 192, 75);
+}
+a:visited{
+    color: rgb(241, 10, 10);
+}
+.image{
+    position: relative;
+}
+.image p {
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+
+}
+
+.image:hover p {
+    opacity: 100;
+}
+
+.image:hover img{
+    opacity : 0.5
+}
+
+.image:hover head{
+    opacity: 0;
+}
+.menu{
+    margin: 30px;
+    border: solid;
+    padding: 30px;
+    position : absolute;
+    bottom: 75%;
+    left : 90%;
+    transform: translate(-50%,-50%);
+}
